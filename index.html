@@ -4,15 +4,46 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="resources/css/style.css">
   <title>Metallica</title>
 </head>
 <body>
-  <nav class="navBar">
-    <u>
-      <li>Home</li>
-      <li>Videos</li>
-      <li>Music</li>
-    </u>
-  </nav>
+  <header>
+    <nav class="navBar">
+      <ul>
+        <a href="#videos"><li>Videos</li></a>
+        <a href="#audio"><li>Music</li></a>
+        <a href="#tour"><li>Tour</li></a>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="backgroundImg">
+      <img src="resources/img/metallica-logo-transparent-background-115628856468pnxnsx6de.png" alt="">
+    </div>
+    <div id="videos">
+      <h1>Videos</h1>
+      <div class="videoContainer">
+        <iframe src="https://www.youtube.com/embed/tAGnKpE4NCI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/CD-E-LDc384" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/DDGhKS6bSAE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div id="audio">
+      <h1>Music</h1>
+      <div class="audioContainer">
+        <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/108672044&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+        <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/211129290&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+        <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/246078433&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+      </div>
+    </div>
+    <div id="tour">
+      <h1>Tour</h1>
+      <div class="mapContainer">
+        <h2>Location of our upcoming concert</h2>
+        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=25.232575535774235%2C54.68078786246159%2C25.24307906627655%2C54.684707764087115&amp;layer=mapnik" style="border: 1px solid black"></iframe>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
